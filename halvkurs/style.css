@@ -51,14 +51,14 @@ main{
     
 
     .imgbox{
-        height: auto;
+
         border: 1px solid black;
-       
+        aspect-ratio: 5 / 7;
        
     }
     .imgbox img{
         width: 100%;
-        height: auto;
+        height: 100%;
         display: block;
         object-fit: cover;
     }
