@@ -23,6 +23,11 @@ header div{
     color: rgb(0, 0, 0);
 }
 
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 img{
     width: 100%;
     
