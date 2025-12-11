@@ -5,6 +5,13 @@ header, main, footer, .card{
     background-color: bisque;
 }
 
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center
+}
+
+
 @media(min-width:600px){
 
     main{
@@ -30,10 +37,13 @@ header, main, footer, .card{
 }
 
 @media(max-width:600px){
-    .card {
-        padding: 10px;
-        min-height: auto;
-    }
+.card {
+    padding: 10px;
+    min-height: auto;
+}
+
+
+
 }
 
     img{
