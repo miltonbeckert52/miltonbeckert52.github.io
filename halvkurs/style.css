@@ -16,7 +16,7 @@
 }
 
 main, footer, .card{
-    border: 1px solid black;
+    border: 2px solid black;
     min-height: 5vh;
     padding: 3%;
     background-color: bisque;
@@ -78,7 +78,12 @@ div textarea{
 
     }
     
+    header{
+        border: 2px solid black;
+    }
+
     header nav{
+        border: 2px solid black;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
@@ -110,9 +115,11 @@ div textarea{
     }
 
     header nav{
+        border: 2px solid black;
         display:grid;
         grid-template-columns: 1fr;
     }
+  
 }
     
 

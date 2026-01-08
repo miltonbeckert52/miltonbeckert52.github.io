@@ -11,6 +11,10 @@ header nav{
     place-items: center
 }
 
+header div{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 
 @media(min-width:600px){
 
@@ -21,7 +25,9 @@ header nav{
 
     }
     
-
+    .card{
+        background-color: black;
+    }
     .imgbox{
 
         border: 1px solid black;
@@ -38,6 +44,7 @@ header nav{
 
 @media(max-width:600px){
 .card {
+    background-color: black;
     padding: 10px;
     min-height: auto;
 }
