@@ -21,7 +21,9 @@ main, footer, .card{
     padding: 3%;
     background-color: bisque;
 }
-
+*{
+    text-decoration: none;
+}
 header{
     background-color: bisque;
     min-height: 5vh;
@@ -109,13 +111,17 @@ div textarea{
 
     
 @media(max-width:600px){
+    header{
+        border: 2px solid black;
+    }
+
+
     .card {
         padding: 10px;
         min-height: auto;
     }
 
     header nav{
-        border: 2px solid black;
         display:grid;
         grid-template-columns: 1fr;
     }
