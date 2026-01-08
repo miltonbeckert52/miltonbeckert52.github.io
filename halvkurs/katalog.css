@@ -16,6 +16,16 @@ header div{
     color: rgb(0, 0, 0);
 }
 
+a{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 5px
+}
+*{
+    text-decoration: none;
+}
 @media(min-width:600px){
 
     main{
