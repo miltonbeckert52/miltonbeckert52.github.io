@@ -105,15 +105,22 @@ div textarea{
         place-items: center;
     }
 
-    .mainCar{
-        
+    .mainCar .imgbox{    
+        height: 50%;
+        width: 50%;
     }
+
+    .mainCar .imgboxu{    
+        height: 10%;
+        width: 100%;
+    }
+
 
 }
     .imgbox{
 
         border: 1px solid black;
-        aspect-ratio: 5 / 7;
+        aspect-ratio: 5 / 7;     
        
     }
     .imgbox img{
@@ -159,4 +166,13 @@ div textarea{
 header div nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.hdiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: left;
+    
 }
