@@ -38,9 +38,9 @@ nav{
 
 .btn_link {
 
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    background: #ffffff;
+    background: #000000;
     padding-inline: 0.5rem;
     padding-bottom: 0.3rem;
     padding-top: 0.1rem;
@@ -54,9 +54,9 @@ nav{
 }
 .btn_linku {
 
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    background: #ffffff;
+    background: #000000;
     padding-inline: 0.3rem;
     padding-bottom: 0.3rem;
     padding-top: 0.1rem;
@@ -106,3 +106,14 @@ nav{
     grid-template-columns: 1fr 1fr 1fr ;
 }
 
+
+
+
+
+
+.mainc img {
+    width: 100%;
+    max-width: 400px;
+    height: 700px;
+    object-fit: cover;
+}
