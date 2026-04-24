@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Championship</title>
+  <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js" ></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,17 +13,7 @@
 
 
 
-    <header>
-        <div class="headchamp">
-            <a href="index.html" class="btn_linku">Home</a>
-            <h1 style="font-size: 50px;">Formula One</h1>
-            <h1 style="font-size: 50px;">Championship Standings</h1>
-            
-        </div>
-            <img src="loggga-removebg-preview.png" alt="F1 Logo" class="f1logo">
-
-
-    </header>
+    <div hx-get = "header.html" hx-swap = "outerHTML" hx-trigger = "load"></div>
 
 
 
