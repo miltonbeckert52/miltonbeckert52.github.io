@@ -7,26 +7,34 @@ header,
 main,
 footer,
 .card {
-    padding: 3%;
+    padding: 2%;
     border: 1px solid rgb(0, 0, 0);
 }
 
 
 
-img{
-    width:100%;
-    
+img {
+    width: 100%;
+
 }
 
 
-.imgbox{
+.imgbox {
     aspect-ratio: 2 / 3;
     overflow: hidden;
 
 }
-.imgbox img{
-    height:100%;
+
+.imgbox img {
+    height: 100%;
     object-fit: cover;
+}
+
+.imgboxh {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    height: 80%;
+    width: auto;
 }
 
 
@@ -37,9 +45,11 @@ img{
     padding: 4%;
     display: grid;
 
+
+
     @media(width>600px) {
         grid-template-columns: 1fr 1fr 1fr;
-        gap:2rem;
+        gap: 2rem;
     }
 
 }
@@ -107,44 +117,25 @@ img{
 
 
 
-
-
 .mainc img {
-    width: 100%;
-    max-width: 400px;
-    height: 700px;
+    width: auto;
+    height: 20%;
     object-fit: cover;
+    aspect-ratio: 1 / 1;
     /* FIXA SENARE */
 }
 
 header {
-    position: relative;
+
 }
 
 
-/* LOGGA */
-.f1logo {
-/*     position: absolute;
-    top: 8px;
-    right: 40px;
-    width: 250px;
-    height: auto; */
-}
+.mainIndex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 
-.logo2 {
-/*     position: absolute;
-    top: 8px;
-    right: 40px;
-    width: 250px;
-    height: auto; */
 }
-
-    .mainIndex {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-   
-    }
 
 
 @media(min-width:900px) {
@@ -154,15 +145,20 @@ header {
         gap: 20px;
 
     }
+
     /* cards startsida */
-.textsida {
-    width: max-content;
-    display: grid;
-    place-items: center;
-}
+    .textsida {
+        width: max-content;
+        display: grid;
+        place-items: center;
+    }
 
-
-
+    .head {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        height: 250px;
+    }
 
 
     nav {
@@ -171,16 +167,18 @@ header {
     }
 }
 
-@media (min-width:1550px){
-.textsida h1 {
-    rotate: 90deg;
+@media (min-width:1550px) {
 
-}
+    .textsida h1 {
+        rotate: 90deg;
+
+    }
+
     .innerGrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         overflow: hidden;
         grid-template-rows: 1fr auto auto;
-  
+
     }
 }
